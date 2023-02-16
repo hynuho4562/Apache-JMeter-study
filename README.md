@@ -85,7 +85,7 @@
     <ul>
       <h5>아래의 링크를 통해 다운로드 받으면 된다.</h5>
       <a href="https://jmeter.apache.org/download_jmeter.cgi">다운로드 하기</a><br><br>
-      <img src="https://user-images.githubusercontent.com/118269278/219259921-aac0ab6b-9885-4249-9491-e73379843ace.png" width=700 height=450 /><br><br>
+      <img src="https://user-images.githubusercontent.com/118269278/219259921-aac0ab6b-9885-4249-9491-e73379843ace.png" width=600 height=250 /><br><br>
       위의 이미지를 참고해서 다운로드 받으면 된다.<br>
     </ul>
     
@@ -96,6 +96,50 @@
   
   <div align="left">
     <h4>에러가 안나고 정상적으로 설치가 되었다면 아래의 이미지처럼 나오게 될 것이다. ↓↓</h4><br>
-    <img src="https://user-images.githubusercontent.com/118269278/219260641-70104a41-26bb-4bf0-8c3a-3c93c79ddb89.png" />
+    <img src="https://user-images.githubusercontent.com/118269278/219260641-70104a41-26bb-4bf0-8c3a-3c93c79ddb89.png" width=650 height=290 />
+  </div>
+  
+  <div align="left">
+    <h4>Test Plan에 여러분들이 이름을 직접 정해도 된다.</h4><br>
+  </div>
+  
+  <div align="center">
+    <h2>Thread Group</h2>
+    <h4>Test Plan에 이름을 지정했으면 이제 Thread Group를 설정해야 한다.</h4><br>
+    <img src="https://user-images.githubusercontent.com/118269278/219262034-2fc46e0a-e4aa-402a-ab07-98f5b205dae8.png" width=650 height=290 />
+  </div>
+  
+  <br>
+  
+  <div align="center">
+    <h4>아래에 이미지에 Thread Properties가 가장 중요한 부분이다.</h4>
+    <img src="https://user-images.githubusercontent.com/118269278/219262915-b76e7a14-7d2e-42fa-8896-28f6c53674aa.png" width=650 height=290 />
+  </div>
+  
+  <br>
+  
+  <div align="left">
+    <ul>
+      <li>Number of Threads: 몇 개의 쓰레드(유저 수)로 테스트할 지</li>
+      <li>Ramp-up period: {Number of Thread} 만큼의 쓰레드를 몇 초에 걸쳐서 만들 지</li>
+      <li>Loop Count: 요청을 몇 번을 반복할지</li>
+      <li>추가적으로 Action to be taken after a Sample error는 에러 처리가 되었을 때 취할 액션이다.</li>
+    </ul>
+  </div>
+  
+  <hr>
+  
+  <div align="center">
+    <h2>Sampler</h2>
+    <h4>정의했던 각각의 유저가 해야 할 일을 Sampler에서 정의한다.</h4>
+    <img src="https://user-images.githubusercontent.com/118269278/219264839-50a50f5c-47d9-42db-967d-c86ba67c64ec.png" width=650 height=290 />
+    <h4>위의 이미지처럼 실행이 되었다면 아래와 같이 설정 창이 노출된다.</h4>
+    <img src="https://user-images.githubusercontent.com/118269278/219265626-bfbdbebf-1f82-489b-91d1-e5a189f3ebf8.png" width=650 height=290 /><br><br>
+    위에 나는 저렇게 적었지만 자신의 localhost로 접속해서 사용할 수 있다.<br>
+  </div>
+  
+  <div align="center">
+    <h2>Listenr</h2>
+    <h4>결과를 받고 행동을 취하는 것이 Listener이다.</h4>
   </div>
 </div>
