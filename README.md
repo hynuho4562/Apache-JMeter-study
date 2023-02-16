@@ -141,5 +141,32 @@
   <div align="center">
     <h2>Listenr</h2>
     <h4>결과를 받고 행동을 취하는 것이 Listener이다.</h4>
+    <h4>아래의 이미지처럼 4개의 Listener만 추가하면 된다.</h4>
+    <img src="https://user-images.githubusercontent.com/118269278/219266634-43634a07-74d3-41ff-acd1-049274cfd407.png" width=650 height=290 />
+  </div>
+  
+  <br>
+  
+  <div align="left">
+    <ul>
+      <li>Summary Report - 2개</li>
+      <li>View Results in Table - 1개</li>
+      <li>Aggregate Report - 1개</li>
+    </ul>
+  </div>
+  
+  <div align="left">
+    <h4>이제 상단에 실행 버튼(초록 삼각형)을 누르면 테스트가 실행된다.</h4>
+    <h4>View Results Tree에 확인하면 아래의 이미지처럼 나오게 된다면 성공한 것이다.</h4><br>
+    <img src="https://user-images.githubusercontent.com/118269278/219268089-e314fcbf-3286-40f1-83f5-c0c009ba6daf.png" />
+  </div>
+  
+  <br>
+  
+  <div align="left">
+    <ul>
+      <li><a href="https://www.apache.org/">아파치 공식문서</a></li>
+      <li><a href="">Apache Jmeter 심화편</a></li>
+    </ul>
   </div>
 </div>
