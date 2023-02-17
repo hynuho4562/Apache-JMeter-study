@@ -166,7 +166,7 @@
   <div align="left">
     <ul>
       <li><a href="https://www.apache.org/">아파치 공식문서</a></li>
-      <li><a href="">Apache Jmeter 심화편</a></li>
+      <li><a href="https://github.com/hynuho4562/Apache-Jmeter-Study-Hard.git">Apache Jmeter 심화편</a></li>
     </ul>
   </div>
 </div>
